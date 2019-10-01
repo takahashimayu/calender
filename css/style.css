@@ -1,0 +1,43 @@
+@charset "utf-8";
+body {
+    height: 15vh;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: normal;
+}
+caption {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+    height: 2em;
+    font-style: italic;
+    font-size: 1.2em;
+}
+.cal-table th,
+.cal-table tr {
+    box-sizing: border-box;
+    width: 4em;
+    height: 3em;
+    text-align: center;
+    font-size: 1.1em;
+}
+.column-title th:first-child,
+tbody td:first-child {
+    color: #d70035;
+}
+.column-title th:last-child,
+tbody td:last-child {
+        color: #00608d;
+}
+.disable {
+    opacity: 0.3;
+}
+.today {
+    /* border: double 4px #00a960; */
+    font-weight: bold;
+    text-decoration: underline;
+}
